@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 80px;
+}
+input{
+  outline:none;
+  margin: 5px;
+}
+label {
+  display: inline-flex;
+  flex-direction: column;
+}
+small {
+  color: red;
+  font-size: 15px;
+}
+.error{
+  border: 3px solid red;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid grey;
+  width: 70%;
+  height: auto;
+  margin: 20px auto;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid grey;
+}
+p{
+  text-align: center;
+}
